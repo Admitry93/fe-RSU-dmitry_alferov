@@ -1,0 +1,8 @@
+.menus {
+	text-decoration: none; 
+	color: #fff; 
+	font-size: 17px;
+}
+.menus:hover {
+	color: #858585;
+}
