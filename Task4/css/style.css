@@ -1,0 +1,26 @@
+.wrapper {
+	width: 900px;
+}
+.ital {
+	font-style: italic;
+}
+#centr>p {
+	text-align:center;
+	margin-bottom: 0;
+}
+table {
+	width: 100%;
+}
+.one {
+	margin-bottom: 10px;
+}
+.titleMain {
+	color: black;
+	font-weight: bold;
+}
+.titleOption {
+	margin-left: 20px;
+}
+td {
+	height: 20px;
+}

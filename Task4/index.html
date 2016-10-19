@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Index</title>
+		<meta charset="utf-8">
+		<meta name="dalferov" http-equiv="Test page" content="First task">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<h1>The Form</h1>
+			<form action="http://httpbin.org/post" method="post">
+				<fieldset>
+					<legend>Personal data</legend>
+					<table>
+						<tr>
+							<td width="13%"><label for="Fname">First Name</label></td>
+							<td><input id="Fname" name="First Name" type="text"></td>
+						</tr>
+						<tr>
+							<td width="13"><label for="Mname">Middle Name</label></td>
+							<td><input id="Mname" name="Middle Name" type="text"></td>
+						</tr>
+						<tr>
+							<td width="13%"><label for="Sname">Surname Name</label></td>
+							<td><input id="Sname" name="Surname Name" type="text"></td>
+						</tr>
+						<tr>
+							<td rowspan="2">Sex</td>
+							<td><input type="radio" name="gender" value="male"> Male</td>
+						</tr>
+						<tr>							
+							<td><input type="radio" name="gender" value="female"> Female</td>
+						</tr>
+						<tr>
+							<td width="13%"><label for="age">Age</label></td>
+							<td><input id="age" name="Age" type="text"></td>
+						</tr>
+						<tr>
+							<td width="13%"><label for="country">Country</label></td>
+							<td>
+								<select id="country" name="Country of Residence">
+									<option></option>
+									<option value="Russia">Russia</option>
+									<option value="USA">USA</option>
+									<option value="China">China</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td width="13%"><label for="city">City</label></td>
+							<td>
+								<input id="city" type="checkbox" name="City" value="Ryazan">Ryazan
+								<input id="city" type="checkbox" name="City" value="Moscow">Moscow
+							</td>
+						</tr>
+						<tr>
+							<td width="13%"><label>Photography</label></td>
+							<td><input type="file" name="photo" multiple accept="image/*,image/jpeg"></td>
+						</tr>
+					</table>
+					<hr>
+					<table>
+						<tr>
+							<td width="10%">Title</td>
+							<td>
+								<select size="8" multiple name="title[]">
+									<option class="titleMain" disabled>Technologies</option>
+									<option class="titleOption" value="Web Master">Web Master</option>
+									<option class="titleOption" value="Database Administrator">Database Administrator</option>
+									<option class="titleOption" value="Computer-aided design">Computer-aided design</option>
+									<option class="titleMain" disabled>Finance</option>
+									<option class="titleOption" value="Economic Planning">Economic Planning</option>
+									<option class="titleOption" value="Management accounting">Management accounting</option>
+									<option class="titleOption" value="Budgeting and planning">Budgeting and planning</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td width="10%">Salary</td>
+							<td><input type="range" min="0" max="10000" step="500" value="50"></td>
+						</tr>
+					</table><br>
+   					<textarea placeholder="Tell us about yourself..." name="info" cols="70" rows="10"></textarea>			
+				</fieldset>
+				<fieldset>
+					<legend>Contact Information</legend>
+					<table>
+						<tr>
+							<td width="6%"><label for="site">Site</label></td>
+							<td><input id="site" name="Site" type="text"></td>
+						</tr>						
+						<tr>
+							<td width="6%"><label for="mail">Email</label></td>
+							<td><input id="mail" name="Email" type="text"></td>
+						</tr>
+						<tr>
+							<td width="6%"><label for="phone">Phone</label></td>
+							<td><input id="phone" name="Phone" type="text"></td>
+						</tr>
+					</table>
+				</fieldset><br>
+				<label>Password <input class="one" name="Password" type="password" required></label><br><hr>
+				<input type="submit" value="Отправить">
+				<input type="reset" value="Сбросить">
+			</form>
+		</div>
+	</body>
+</html>
