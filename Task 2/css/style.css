@@ -1,0 +1,17 @@
+#wrapper {
+    width: 340px;
+    margin: 20px auto;
+}
+#header {
+    color: #fff;
+    background-color: #569099;
+}
+h1 {
+    padding: 10px;
+}
+#content {
+    background-color: #cad8d0;
+}
+p {
+    padding: 10px;
+}
