@@ -1,7 +1,26 @@
-div {
+#pic {
     margin: 20px auto;
-    width: 300px;
+    width: 350px;
     height: 200px;
     background: radial-gradient(circle closest-side, #00bc9e 70px, white 30px);
     border: 1px solid #ccc;
+}
+div {
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+button {
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    background: linear-gradient(to top, #7395dd 20%, #575ee7 50%, #7395dd 80%);
+    border-radius: 15px;
+    border: 5px double white;
+    transition: all 2s;
+}
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px 10px #9ADFE4;
 }

@@ -1,30 +1,8 @@
+@media screen and (max-width: 500px) {
+    div {font-size: 1.5em;
+         padding: 10px 5px;}
+}
 div {
-    width: 400px;
-    margin: 50px auto;
-    text-align: center;
+    padding: 15px 10px;
+    background-color: #cad8d0;
 }
-button {
-    width: 200px;
-    height: 50px;
-    color: white;
-    font-size: 20px;
-/*    background: linear-gradient(to top, #7395dd 50%, #575ee7 50%, #7395dd 50%);*/
-    background: linear-gradient(to top, #7395dd 20%, #575ee7 50%, #7395dd 80%);
-    border-radius: 15px;
-    border: 5px double white;
-    box-shadow: 0 0 5px 2px red;
-
-}
-button:hover {
-    cursor: pointer;
-}
-/*
-8990c7
-
-
-575ee7
-
-
-7395dd
-
-*/
