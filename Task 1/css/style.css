@@ -1,0 +1,33 @@
+#wrapper {
+    margin: 20px auto;
+    border: 2px solid #64a99a;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #a0dfd1;
+}
+#content {
+    border: 2px solid #64a99a;
+    display: flex;
+    flex-direction: column;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    position: relative;
+    padding: 5px;
+    background: linear-gradient(to top, #ffba00, #ffd600) 
+}
+.inner-content {
+    padding: 10px 5px;
+    background-color: #edecde;
+    color: #70889c;
+}
+.header:after {
+    content: "";
+    border: 12px solid transparent;
+    border-top: 12px solid #ffba00;
+    position: absolute;
+    top: 30px;
+}

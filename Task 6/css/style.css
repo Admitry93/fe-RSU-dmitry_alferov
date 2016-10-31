@@ -1,0 +1,106 @@
+/* Main settings */
+body {
+    margin: 0;
+    height: 5000px;
+}
+h3 {
+    margin-left: 10px;
+    margin-bottom: 0;
+    clear: both;
+}
+img {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.container {
+    position: relative;
+    margin: 10px;
+}
+button {
+    color: #888;
+    padding: 5px 20px;
+    margin-top: 5px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fdfdfc), to(#ededed));
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+button:hover {
+    color: #fff;
+    cursor: pointer;
+    background: -webkit-gradient(linear, left top, left bottom, from(#91c852), to(#8ec74a));
+}
+
+/* Для раметки с помощью float */
+.float >.container {
+    float: left;
+}
+.float > .container > .demo {
+    float: right;
+}
+.float > .container:nth-child(4) {
+    clear: left;
+}
+.float > .container > button:last-child {
+    margin-right: 4px;
+}
+
+
+/* Для разметки с помощью inline */
+.inline-box {
+    font-size: 0;
+}
+.inline-box > .container {
+    font-size: 14px;
+    margin: 10px;
+    display: inline-block;
+}
+.inline-box > .container > button {
+    margin-top: 10px;
+}
+.inline-box > .container > .detail {
+    margin-right: 10px;
+}
+.inline-box > .container > .detail:second-child {
+    margin-right: 0;
+}
+
+/* Для разметки с помощью flex */
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 700px;
+}
+.flexbox > .container > button {
+    margin-right: 10px;
+}
+.flexbox > .container > button:last-child {
+    margin-right: 0;
+}
+
+
+.opa{
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 182px;
+    text-align: center;
+    color: #fff;
+    padding-top: 60px;
+    height: 132px;
+    background: rgba(17, 17, 17, 0.6);
+}
+.gray {
+    color: #999;
+}
+.green {
+    color: #71a935;
+    font-weight: bold;
+}
+
+
+.container:hover .opa {
+    display: block;
+    cursor: pointer;
+}
