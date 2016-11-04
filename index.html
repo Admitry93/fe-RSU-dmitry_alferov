@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="header-nav">
+                <ul class="header-nav__menu">
+                    <li class="header-nav__menu-item"><a href="#">Help Center</a></li>
+                    <li class="header-nav__menu-item"><a href="#">Our Support</a></li>
+                    <li class="header-nav__menu-item">
+                        <a href="#">
+                            <img class="header-nav__menu-item-logo" src="img/profile.png" alt="" width="28px">
+                            John Doe
+                            <i class="fa fa-check-circle header-nav__menu-item-checkmark" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-section">
+               <div class="sidebar-section-add-book">
+                    <button class="sidebar-section-add-book__button"><i class="fa fa-plus sidebar-section-add-book__button-icon" aria-hidden="true"></i> ADD BOOK</button>
+                </div>
+            </div>
+            <div class="sidebar-section">
+                <ul class="sidebar-section-menu">
+                    <li class="sidebar-section__menu-item"><i class="fa fa-book fa-fw sidebar-section__menu-item-icon" aria-hidden="true"></i><a href="#">Now reading</a></li>
+                    <li class="sidebar-section__menu-item"><i class="fa fa-globe fa-fw sidebar-section__menu-item-icon" aria-hidden="true"></i><a href="#">Browse</a></li>
+                    <li class="sidebar-section__menu-item"><i class="fa fa-shopping-cart fa-fw sidebar-section__menu-item-icon" aria-hidden="true"></i><a href="#">Buy Books</a></li>
+                    <li class="sidebar-section__menu-item"><i class="fa fa-star fa-fw sidebar-section__menu-item-icon" aria-hidden="true"></i><a href="#">Favourite Books</a></li>
+                    <li class="sidebar-section__menu-item"><i class="fa fa-bars fa-fw sidebar-section__menu-item-icon" aria-hidden="true"></i><a href="#">Wishlist</a></li>
+                    <li class="sidebar-section__menu-item"><i class="fa fa-clock-o fa-fw sidebar-section__menu-item-icon" aria-hidden="true"></i><a href="#">History</a></li>
+                </ul>
+            </div>
+            <div class="sidebar-section">
+                <ul class="sidebar-section-menu">
+                    <li class="sidebar-section__menu-item filter"><i class="fa fa-circle fa-fw red" aria-hidden="true"></i><a href="#">Must Read Titles</a></li>
+                    <li class="sidebar-section__menu-item filter"><i class="fa fa-circle fa-fw yellow" aria-hidden="true"></i><a href="#">Best Of List</a></li>
+                    <li class="sidebar-section__menu-item filter"><i class="fa fa-circle fa-fw blue" aria-hidden="true"></i><a href="#">Classic Novels</a></li>
+                    <li class="sidebar-section__menu-item filter"><i class="fa fa-circle fa-fw purple" aria-hidden="true"></i><a href="#">Non Fiction</a></li>
+                </ul>
+            </div>
+            <div class="sidebar-section">
+               <div class="sidebar-section-actions">
+                   <div class="sidebar-section__actions-icon">
+                       <i class="fa fa-clock-o fa-fw" aria-hidden="true"></i>
+                   </div>
+                   <div class="sidebar-section__actions-info">
+                        <p class="sidebar-section__actions-info-text">You added <a class="sidebar-section__actions-info-link" href="#">Fight Club</a> by 
+                        <a class="sidebar-section__actions-info-link" href="#">Chuck Palahnik</a> to your <a class="sidebar-section__actions-info-link" href="#">Must Read Titles</a></p><br>
+                        <p class="sidebar-section__actions-info-text">24 minutes ago</p>
+                   </div>
+               </div>
+               <div class="sidebar-section-actions">
+                   <div class="sidebar-section__actions-icon">
+                       <i class="fa fa-clock-o fa-fw" aria-hidden="true"></i>
+                   </div>
+                   <div class="sidebar-section__actions-info">
+                        <p class="sidebar-section__actions-info-text">You added <a class="sidebar-section__actions-info-link" href="#">The Trial</a> by 
+                        <a class="sidebar-section__actions-info-link" href="#">Franz Kafka</a> to your <a class="sidebar-section__actions-info-link" href="#">Must Read Titles</a></p><br>
+                        <p class="sidebar-section__actions-info-text">48 minutes ago</p>
+                   </div>
+               </div>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <div class="content-head">
+                Browse Available Books
+            </div>
+            <div class="content-nav">
+                <div class="content-menu">
+                    <ul class="content-menu-list">
+                        <li class="content-menu-list-item"><a href="#">All Books</a></li>
+                        <li class="content-menu-list-item"><a href="#">Most Recent</a></li>
+                        <li class="content-menu-list-item"><a href="#">Most Popular</a></li>
+                        <li class="content-menu-list-item"><a href="#">Free</a></li>
+                    </ul>
+                </div>
+                <div class="content-search">
+                    <form action="" method="post" class="content-search-form">
+                      <input type="search" name="" placeholder="Enter Keywords" class="content-search-form__input" />
+                      <input type="submit" name="" value="" class="content-search-form__submit" />
+                    </form>
+                </div>
+            </div>
+            <div class="content-main">
+               <div class="content-main-row">
+                    <div class="content-main__row-container">
+                        <img class="content-main__row-container-pic" src="img/cont1.png" width="100%" height="260px" alt="">
+                        <p class="content-main__row-container-name">Jewels of Nizam</p>
+                        <p class="content-main__row-container-author">by Geeta Devi</p>
+                        <div class="content-main__row-container-rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="content-main__row-container">
+                        <img class="content-main__row-container-pic" src="img/cont2.png" width="100%" height="260px" alt="">
+                        <p class="content-main__row-container-name">Cakes & Bakes</p>
+                        <p class="content-main__row-container-author">by Sanjeev Kapoor</p>
+                        <div class="content-main__row-container-rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="content-main__row-container">
+                        <img class="content-main__row-container-pic" src="img/cont3.png" width="100%" height="260px" alt="">
+                        <p class="content-main__row-container-name">Jamie’s Kitchen</p>
+                        <p class="content-main__row-container-author">by Jamie Oliver</p>
+                        <div class="content-main__row-container-rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="content-main__row-container">
+                        <img class="content-main__row-container-pic" src="img/cont4.png" width="100%" height="260px" alt="">
+                        <p class="content-main__row-container-name">Inexpensive Family Meals</p>
+                        <p class="content-main__row-container-author">by Simon Holst</p>
+                        <div class="content-main__row-container-rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                       <div class="content-main__row-container">
+                        <img class="content-main__row-container-pic" src="img/cont6.png" width="100%" height="260px" alt="">
+                        <p class="content-main__row-container-name">Paleo Slow Cooking</p>
+                        <p class="content-main__row-container-author">by Chrissy Gower</p>
+                        <div class="content-main__row-container-rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="content-main__row-container">
+                        <img class="content-main__row-container-pic" src="img/cont6.png" width="100%" height="260px" alt="">
+                        <p class="content-main__row-container-name">Cook Like an Italian</p>
+                        <p class="content-main__row-container-author">by Tobie Puttock</p>
+                        <div class="content-main__row-container-rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="content-main__row-container">
+                        <img class="content-main__row-container-pic" src="img/cont7.png" width="100%" height="260px" alt="">
+                        <p class="content-main__row-container-name">Suneeta Vaswani</p>
+                        <p class="content-main__row-container-author">by Geeta Devi</p>
+                        <div class="content-main__row-container-rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="content-main__row-container">
+                        <img class="content-main__row-container-pic" src="img/cont8.png" width="100%" height="260px" alt="">
+                        <p class="content-main__row-container-name">Jamie Does</p>
+                        <p class="content-main__row-container-author">by Jamie Oliver</p>
+                        <div class="content-main__row-container-rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="content-main__row-container">
+                        <img class="content-main__row-container-pic" src="img/cont9.png" width="100%" height="260px" alt="">
+                        <p class="content-main__row-container-name">Jamie’s italy</p>
+                        <p class="content-main__row-container-author">by Jamie Oliver</p>
+                        <div class="content-main__row-container-rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                    </div><div class="content-main__row-container">
+                        <img class="content-main__row-container-pic" src="img/cont10.png" width="100%" height="260px" alt="">
+                        <p class="content-main__row-container-name">Vegetables Cookbook</p>
+                        <p class="content-main__row-container-author">by Matthew Biggs</p>
+                        <div class="content-main__row-container-rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="content-main__row-container">
+                        <img class="content-main__row-container-pic" src="img/cont1.png" width="100%" alt="">
+                        <p class="content-main__row-container-name">Jewels of Nizam</p>
+                        <p class="content-main__row-container-author">by Geeta Devi</p>
+                        <div class="content-main__row-container-rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="content-main__row-container">
+                        <img class="content-main__row-container-pic" src="img/cont1.png" width="100%" alt="">
+                        <p class="content-main__row-container-name">Jewels of Nizam</p>
+                        <p class="content-main__row-container-author">by Geeta Devi</p>
+                        <div class="content-main__row-container-rating">
+
+                        </div>
+                    </div>
+                    <div class="content-main__row-container">
+                        <img class="content-main__row-container-pic" src="img/cont1.png" width="100%" alt="">
+                        <p class="content-main__row-container-name">Jewels of Nizam</p>
+                        <p class="content-main__row-container-author">by Geeta Devi</p>
+                        <div class="content-main__row-container-rating">
+
+                        </div>
+                    </div>
+                    <div class="content-main__row-container">
+                        <img class="content-main__row-container-pic" src="img/cont1.png" width="100%" alt="">
+                        <p class="content-main__row-container-name">Jewels of Nizam</p>
+                        <p class="content-main__row-container-author">by Geeta Devi</p>
+                        <div class="content-main__row-container-rating">
+
+                        </div>
+                    </div>
+                    <div class="content-main__row-container">
+                        <img class="content-main__row-container-pic" src="img/cont1.png" width="100%" alt="">
+                        <p class="content-main__row-container-name">Jewels of Nizam</p>
+                        <p class="content-main__row-container-author">by Geeta Devi</p>
+                        <div class="content-main__row-container-rating">
+
+                        </div>
+                    </div>
+                    <div class="content-main__row-container">
+                        <img class="content-main__row-container-pic" src="img/cont1.png" width="100%" alt="">
+                        <p class="content-main__row-container-name">Jewels of Nizam</p>
+                        <p class="content-main__row-container-author">by Geeta Devi</p>
+                        <div class="content-main__row-container-rating">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-nav">
+                <ul class="footer-nav__menu">
+                    <li class="footer-nav__menu-item"><a href="#"><i class="fa fa-question-circle footer-nav__menu-item-icon" aria-hidden="true"></i></a></li>
+                    <li class="footer-nav__menu-item"><a href="#"><i class="fa fa-cog footer-nav__menu-item-icon" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
